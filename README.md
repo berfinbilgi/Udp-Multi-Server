@@ -1,0 +1,2 @@
+# Udp-Multi-Server
+UDP kullanılarak bir istemciye bağlı olan üç sunucu UDP çoklayıcı ile birbirine bağlanmış olup sırasıyla 10 karakterlik, 100 karakterlik ve 1000 karakterlik mesajlar gönderilmiş ve istemcide mesaj gönderilmeden önce System.currentTimeMilis() fonksiyonu kullanılarak sistemin milisaniyesi elde edilmiştir. Bu işlem sunucularda istemciden gelen mesaj alındıktan sonra da yapılmıştır. Bu süreler arasındaki farka bakıldığında veri boyutu büyük olan mesajın veri boyutu küçük olan mesaja göre sunucuya daha geç ulaştığı gözlemlenmiştir.
